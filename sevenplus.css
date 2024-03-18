@@ -1,0 +1,971 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: transparent;
+}
+
+.navbar ul{
+    display: flex;
+    margin-left: 7%;
+}
+
+.navbar li{
+    display: flex;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-stretch:condensed;
+    font-weight: bolder;
+    color:#515151;
+}
+
+.sevenplus_logo img{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    margin-left: 5%;
+}
+
+.navbar p{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:skyblue;
+    border: 3px solid skyblue;
+    border-radius: 70%;
+}
+
+.first_div{
+    width: 98%;
+    height: 700px;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+.first_div_into{
+    width: 85%;
+    height: 600px;
+}
+
+.first_div_sentence{
+    width: 40%;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 7%;
+    background-color: transparent;
+}
+
+.first_div_img{
+    width: 40%;
+    height: 700px;
+    background:url(https://sevenplus.uz/data/uploads/module/block/3/12/64d8b15398cd0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first_div_sentence h1{
+    display: flex;
+    margin-top: 0%;
+    justify-content: flex-start;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#515151;
+}
+
+.first_div_sentence p{
+    display: flex;
+    margin-top: 50px;
+    font-size:25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#515151;
+}
+
+.first_div_sentence button{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    margin-top: 50px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 40px;
+    background-color: rgb(20, 163, 220);
+    transition: 0.3s;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#button_2{
+    background-color: whitesmoke;
+    color:#515151;
+    display: flex;
+    margin-top: 4%;
+    font-size: 20px;
+}
+
+.sentence_h1{
+    width: 90%;
+    height: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:transparent;
+}
+
+
+.sentence_h1 img{
+    display: flex;
+    width: 100%;
+    height: 650px;
+}
+
+#button_1:hover{
+    background-color:#129ac1;;
+    transition: 0.3s;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #515151;
+}
+
+.navbar li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.part_2{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    margin-top: 20px;
+    padding-top: 20px;
+    justify-content: space-around;
+    background-color: transparent;
+}
+
+.video{
+    width: 45,5%;
+    height: 415px;
+    background-color: transparent;
+}
+
+.concepts{
+    width: 600px;
+    height: 415px;
+    display: grid;
+    background-color:transparent;
+}
+
+.video img{
+    width: 696px;
+    height: 415px;
+}
+
+.concepts_1{
+    display: flex;
+    margin-right: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.concepts_2{
+    display: flex;
+    margin-right: 20%;
+    justify-content: center;
+}
+
+.concepts_s{
+    display: flex;
+    margin-left: 80px;
+}
+
+.concepts h1{
+    color: #38BFD2;
+    font-size: 37px;
+}
+
+.concepts_1 p{
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 16px;
+    color: #515151;
+}
+
+.concepts_2 p{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 16px;
+    color: #515151;
+}
+
+.concepts_se{
+    display: flex;
+    margin-left: 10%;
+}
+
+.h1{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 6%;
+    align-items: flex-start;
+    background-color: transparent;
+}
+
+.our_graduates{
+    width: 100%;
+    height: 1250px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.our_graduates_1{
+    width: 90%;
+    height: 1250px;
+    display: grid;
+    padding-left: 2%;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: transparent;
+}
+
+.graduates_pictures{
+    width: 412px;
+    height: 616px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color:transparent;
+}
+
+.g_p_bottom{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    align-items: center;
+    background-color: #00c6f300;
+    background-image: linear-gradient(180deg, #00c6f300 0%, #0ca7e9 100%);
+    border-radius: 20px;
+
+}
+
+#p_1{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//2/456x645/64d8bc20036a2.jpg);
+    border-radius: 20px;
+}
+
+#p_2{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//3/456x645/64d8bce1b23d2.jpg);
+    border-radius: 20px;
+}
+
+#p_3{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//4/456x645/64d8bd429a721.jpg);
+    border-radius: 20px;
+}
+
+#p_4{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//5/456x645/64d8bde1117f7.jpg);
+    border-radius: 20px;
+}
+
+#p_5{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//18/456x645/650ee0538c615.jpg);
+    border-radius: 20px;
+}
+
+#p_6{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//19/456x645/650ee08ff0e4a.jpg);
+    border-radius: 20px;
+}
+
+
+
+.g_p_bottom_s_1 p{
+    font-size: 27px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.g_p_bottom_s_1 span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.g_p_bottom_s_1_h1{
+    display: flex;
+    margin-left: 30%;;
+    font-size: 40px;
+}
+
+.g_p_bottom_s_1_h1 h1{
+    color: white;
+}
+
+.why_choose_us{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin-top: 5%;
+    justify-content: flex-start;
+    padding-left: 6%;
+    align-items: flex-start;
+    background-color: transparent;
+}
+
+.why_choose_us_head{
+    width: 100%;
+    height: 598px;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.why_choose_us_head_into{
+    width: 90%;
+    height: 598px;
+    display: grid;
+    padding-left: 2%;
+    grid-template-columns: repeat(3, 1fr);
+    background-color:transparent;
+}
+
+.why_choose_us_box_picture{
+    width: 412px;
+    height: 598px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: transparent;
+}
+
+#why_p_1{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//6/438x635/64d8bfc8e2f27.png);
+    border-radius: 20px;
+}
+
+#why_p_2{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//7/438x635/64d8bff8a9ff3.png);
+    border-radius: 20px;
+}
+
+#why_p_3{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//8/438x635/64d8c0257df1e.png);
+    border-radius: 20px;
+}
+
+.into_bp{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding-left: 2%;
+    align-items: center;
+    background-color: transparent;
+}
+
+.into_bp span{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.prices{
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.prices_box{
+    width: 90%;
+    height: 1024px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 2%;
+    background-color: transparent;
+}
+
+.img_prices{
+    width: 410px;
+    height: 512px;
+    display: flex;
+    margin-top: 2%;
+    background-color:transparent;
+    border: 1px solid #515151;
+    border-radius: 5px;
+}
+
+.img_prices p{
+    font-size: 28px;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 100px;
+    font-weight: bold;
+    color: #414141;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img_prices span{
+    font-size: 28px;
+    display: flex;
+    margin-left: 110px;
+    font-weight: bold;
+    color: #414141;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.line_div{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10%;
+}
+
+.line{
+    width: 300px;
+    height: 2px;
+    background-color: #515151;
+}
+
+.prices_ul li{
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.prices_ul{
+    display: flex;
+    margin-left: 17%;
+    margin-top: 7px;
+}
+
+.prices_table svg{
+    width: 23px;
+    height: 23px;
+}
+
+.button_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.button{
+    width: 200px;
+    height: 53px;
+    border-radius: 17px;
+    background-color: #38BFD2;
+}
+
+.button button{
+    display: flex;
+    padding: 17px 75.5px;
+    border-radius: 17px;
+    background-color: #38BFD2;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.our_teachers_1{
+    width: 90%;
+    height: 1250px;
+    display: grid;
+    justify-content: center;
+    padding-left: 12.5%;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: transparent;
+}
+
+#teachers_1{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//9/456x645/658db979823fe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#teachers_2{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//11/456x645/650ee278e6931.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#teachers_3{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//12/456x645/64d8c62910188.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#teachers_4{
+    background: url(https://sevenplus.uz//data/uploads/module/slider//10/456x645/64d8c506a26e6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.advantages_head{
+    width: 100%;
+    height: 487px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.advantages_items{
+    width: 90%;
+    height: 487px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 5%;
+    background-color: transparent;
+}
+
+.advantages_box_1{
+    width: 352px;
+    height: 487px;
+    border-radius: 20px;
+    background:url(https://sevenplus.uz//data/uploads/module/slider//13/449x621/64d8c850dbd8b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.advantages_box_1 svg{
+    display: flex;
+    margin-left: 77%;
+}
+
+.advantages_box_1::after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0;
+    background:blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.advantages_box_1:hover::after{
+    width: 353px;
+    height: 487px;
+}
+
+.advantages_box_2{
+    width: 352px;
+    height: 487px;
+    border-radius: 20px;
+    background:url(https://sevenplus.uz//data/uploads/module/slider//14/449x621/64d8c8f510929.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.advantages_box_2 svg{
+    display: flex;
+    margin-left: 77%;
+}
+
+.advantages_box_2::after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+}
+
+.advantages_box_2:hover::after{
+    width: 352px;
+    height: 487px;
+    background-color: rgb(222, 177, 47);
+}
+
+.advantages_box_3{
+    width: 352px;
+    height: 487px;
+    border-radius: 20px;
+    background:url(https://sevenplus.uz//data/uploads/module/slider//15/449x621/64d8c99302e8a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.advantages_box_3 svg{
+    display: flex;
+    margin-left: 77%;
+}
+
+.advantages_box_3::after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+}
+
+.advantages_box_3:hover::after{
+    width: 352px;
+    height: 487px;
+    background-color: rgb(222, 177, 47);
+}
+
+.advantages_button{
+    width: 100%;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px, 0 0;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.advantages_button button{
+    width: 242px;
+    height: 58px;
+    padding: 16px 24px;
+    border-radius: 40px;
+    background-color: #14a3dc;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.advantages_button button:hover{
+    background-color: #129ac1;
+}
+
+.branches{
+    width: 100%;
+    height: 472px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.branches_1{
+    width: 672px;
+    height: 472px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left: solid 3px whitesmoke;
+    border-bottom: solid 3px whitesmoke;
+    border-top: solid 3px whitesmoke;
+    background-color:white;
+}
+
+.branches_2{
+    width: 672px;
+    height: 472px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-right: solid 3px whitesmoke;
+    border-bottom: solid 3px whitesmoke;
+    border-top: solid 3px whitesmoke;
+    background-color:white;
+}
+
+.number_branches{
+    width: 168px;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 24px;
+    background-color: transparent;
+}
+
+.number_branches h1{
+    font-size: 120px;
+    color: #38BFD2;
+}
+
+.location_1{
+    width: 504px;
+    height: 128px;
+    background-color: transparent;
+}
+
+.yunusabad_location{
+    width: 253px;
+    height: 57px;
+    display: flex;
+    margin-left: 25%;
+    justify-content: flex-start;
+    align-items: center;
+    color: #515151;
+    background-color: transparent;
+}
+
+.certain_location_1{
+    width: 369px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    margin-left: 13%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: transparent;
+    color: #515151;
+}
+
+.head_location{
+    width: 624px;
+    height: 128px;
+    display: flex;
+}
+
+.location_img_1{
+    width: 624px;
+    height: 344px;
+    display: flex;
+    border-radius: 20px;
+    background: url(https://sevenplus.uz//data/uploads/module/slider//16/668x368/64d8cd2504711.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.location_img_2{
+    width: 624px;
+    height: 344px;
+    display: flex;
+    border-radius: 20px;
+    background: url(https://sevenplus.uz//data/uploads/module/slider//17/668x368/64d8cd96a8236.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.work_time{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    background-color: white;
+}
+
+.worktime{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px whitesmoke;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.work_time_1{
+    width: 390px;
+    height: 104px;
+    margin: 0 25px;
+    padding-left: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    color: #515151;
+}
+
+.work_time_2{
+    width: 390px;
+    height: 104px;
+    margin: 0 25px;
+    padding-left: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    color: #515151;
+}
+
+.submit_div{
+    width: 100%;
+    height: 323px;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.submit_box{
+    width: 90%;
+    height: 323px;
+    border-radius: 20px;
+    border: solid 3px whitesmoke;
+    background-color: white;
+}
+
+.head_sentence_submit{
+    width: 307px;
+    height: 23px;
+    display: flex;
+    margin-top: 3%;
+    margin-left: 2.7%;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:transparent;
+    font-size: 16px;
+    color: #515151;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.name_submit{
+    width: 326px;
+    height: 82px;
+    margin-left: 8%;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.name_submit input{
+    margin-top: 10px;
+    padding: 10px 81px;
+    border-radius: 10px;
+    border: solid 3px #38BFD2;
+    color: #38BFD2;
+}
+
+.name_submit p{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: #515151;
+}
+
+.three_s_box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.three_s_box input{
+    cursor: pointer;
+}
+
+.input_button_div{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    background-color: transparent;
+}
+
+.button_submit{
+    width: 90px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: sandybrown;
+}
+
+.button_submit button{
+    width: 90px;
+    height: 58px;
+    padding: 16px 24px;
+    border-radius: 50px;
+    background-color: #14a3dc;
+    border: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button_submit button:hover{
+    background-color: #129ac1;
+}
+
+footer{
+    width: 100%;
+    height: 138px;
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.footer_div{
+    width: 90%;
+    height: 138px;
+    border-radius: 20px;
+    border: solid 3px whitesmoke;
+    background-color: white;
+}
+
+.footer_div_1{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_logo{
+    width: 975px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.footer_logo img{
+    width: 244px;
+    height: 52px;
+}
+
+.social_media_div{
+    display: flex;
+    justify-content: center;
+}
+
+.social_media{
+    width: 92px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
